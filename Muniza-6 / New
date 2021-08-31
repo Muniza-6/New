@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "spark_test",
-      "text": "%sql\nSelect * from default.salesdata",
+      "text": "%sql\nSelect * from default.salesdata\n",
       "user": "imrankhan.hameetkhan@qubole.com",
-      "dateUpdated": "Aug 31, 2021 7:15:31 AM",
+      "dateUpdated": "Aug 31, 2021 8:53:25 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -16,8 +16,7 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "enabled": true
       },
       "settings": {
         "params": {},
@@ -226,6 +225,44 @@
       "progressUpdateIntervalMs": 1000
     },
     {
+      "title": "-NOte",
+      "text": "--Notebok",
+      "user": "imrankhan.hameetkhan@qubole.com",
+      "dateUpdated": "Aug 31, 2021 8:53:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v1",
+      "jobName": "paragraph_1630398964222_2058864742",
+      "id": "20210831-083604_944606861_q_HTNY2XUWMH1630393617",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\n\n\n\u003cconsole\u003e:24: error: not found: value --\n       --Notebok\n       ^\n"
+      },
+      "dateCreated": "Aug 31, 2021 8:36:04 AM",
+      "dateSubmitted": "Aug 31, 2021 8:53:54 AM",
+      "dateStarted": "Aug 31, 2021 8:53:54 AM",
+      "dateFinished": "Aug 31, 2021 8:53:54 AM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
       "text": "",
       "config": {},
       "settings": {
@@ -233,9 +270,9 @@
         "forms": {}
       },
       "version": "v0",
-      "jobName": "paragraph_1630398964222_2058864742",
-      "id": "20210831-083604_944606861_q_HTNY2XUWMH1630393617",
-      "dateCreated": "Aug 31, 2021 8:36:04 AM",
+      "jobName": "paragraph_1630400034265_1000341131",
+      "id": "20210831-085354_1240942096_q_HTNY2XUWMH1630393617",
+      "dateCreated": "Aug 31, 2021 8:53:54 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
