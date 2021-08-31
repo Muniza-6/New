@@ -77,9 +77,83 @@
       "progressUpdateIntervalMs": 1000
     },
     {
-      "text": "",
+      "text": "%sql\nSelect * from default.default_qubole_memetracker\nlimit 5",
       "user": "imrankhan.hameetkhan@qubole.com",
-      "dateUpdated": "Aug 31, 2021 7:11:36 AM",
+      "dateUpdated": "Aug 31, 2021 8:33:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "JOB UI",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/jobs/job?spark\u003dtrue\u0026id\u003d0"
+          ],
+          "interpreterSettingId": "2GF5J64FT656351630393458767"
+        }
+      },
+      "paragraphProgress": {
+        "jobs": [
+          {
+            "id": 0,
+            "jobUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/jobs/job?spark\u003dtrue\u0026id\u003d0",
+            "numTasks": 1,
+            "numCompletedTasks": 1,
+            "stages": [
+              {
+                "id": 0,
+                "completed": true,
+                "status": "Completed",
+                "stageUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/stages/stage/?id\u003d0\u0026attempt\u003d0",
+                "numCompleteTasks": 1,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 1
+              }
+            ],
+            "status": "Success"
+          }
+        ],
+        "numCompletedTasks": 1,
+        "numTasks": 1,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1630393767550_-1953523886",
+      "id": "20210831-070927_260114303_q_HTNY2XUWMH1630393617",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "{\"exceeded\":-1,\"data\":[[\"site\",\"ts\",\"phr\",\"lnks\",\"month\"],[\"http://uk.news.yahoo.com/afp/20080829/tuk-fbl-eng-pr-liverpool-benitez-capello-2c0ffe7.html\",\"2008-08-29 17:13:19\",\"[\\\"steven gerrard has had the operation it was not serious but he will not be available until after the international break\\\",\\\"i have spoken to fabio capello about the situation he asked me how steven was and it was a good conversation everything was positive between us and i have explained to him the timing and when he will be fit\\\",\\\"we had no option but to have the operation done now there will be another international break soon anyway and we could not wait any longer\\\"]\",\"[]\",\"2008-08\"],[\"http://blog.myspace.com/index.cfm?fuseaction\\u003dblog.view\\u0026friendid\\u003d13212334\\u0026blogid\\u003d428490819\",\"2008-08-29 17:13:19\",\"[\\\"what would jesus do\\\"]\",\"[]\",\"2008-08\"],[\"http://nepaliperspectives.blogspot.com/2008/08/paradigm-shift-in-nepali-nationalism.html\",\"2008-08-29 17:13:19\",\"[]\",\"[\\\"http://blogger.com\\\"]\",\"2008-08\"],[\"http://thepage.time.com/2008/08/29/democrats-quick-to-criticize-mccains-choice\",\"2008-08-29 17:13:19\",\"[\\\"road to the convention\\\",\\\"on the road to change\\\"]\",\"[]\",\"2008-08\"],[\"http://uk.news.yahoo.com/afp/20080829/tts-golf-ryder-epga-sco-montgomerie-poul-2f9c6a1.html\",\"2008-08-29 17:13:19\",\"[\\\"did he really\\\",\\\"oh well it is nice to be told what to do by one so young and one so inexperienced\\\",\\\"can you believe he said that the only reason that we said a hotline to faldo is because he is the only one saying it\\\",\\\"no-one is he did say he has spoken to nick has anyone else said that no right then it is nick faldo\\u0027s decision\\\",\\\"not necessarily i don\\u0027t think that necessarily proves that you are on form or not a good solid performance does nowadays in europe if you finish from 10th up you are performing quite well because it is tough to win and you have to be fortunate at the right times\\\",\\\"never in any of my 41 victories have i stood up and said i was unlucky ever\\\"]\",\"[]\",\"2008-08\"]]}"
+      },
+      "dateCreated": "Aug 31, 2021 7:09:27 AM",
+      "dateSubmitted": "Aug 31, 2021 8:33:25 AM",
+      "dateStarted": "Aug 31, 2021 8:33:33 AM",
+      "dateFinished": "Aug 31, 2021 8:34:53 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sql\nSelect * from default.salesdata\nlimit 5",
+      "user": "imrankhan.hameetkhan@qubole.com",
+      "dateUpdated": "Aug 31, 2021 8:36:04 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -92,16 +166,76 @@
           "scatter": {}
         },
         "enabled": true,
-        "editorMode": "ace/mode/scala"
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},
         "forms": {}
       },
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "JOB UI",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/jobs/job?spark\u003dtrue\u0026id\u003d1"
+          ],
+          "interpreterSettingId": "2GF5J64FT656351630393458767"
+        }
+      },
+      "paragraphProgress": {
+        "jobs": [
+          {
+            "id": 1,
+            "jobUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/jobs/job?spark\u003dtrue\u0026id\u003d1",
+            "numTasks": 1,
+            "numCompletedTasks": 1,
+            "stages": [
+              {
+                "id": 1,
+                "completed": true,
+                "status": "Completed",
+                "stageUrl": "https://us.qubole.com/cluster-proxy?encodedUrl\u003dhttp%3A%2F%2F10.239.166.157%3A8088%2Fproxy%2Fapplication_1630398431712_0001/stages/stage/?id\u003d1\u0026attempt\u003d0",
+                "numCompleteTasks": 1,
+                "numActiveTasks": 0,
+                "numFailedTasks": 0,
+                "numTotalTasks": 1
+              }
+            ],
+            "status": "Success"
+          }
+        ],
+        "numCompletedTasks": 1,
+        "numTasks": 1,
+        "truncated": false
+      },
+      "version": "v1",
+      "jobName": "paragraph_1630398804948_-154423826",
+      "id": "20210831-083324_1614297212_q_HTNY2XUWMH1630393617",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "{\"exceeded\":-1,\"data\":[[\"dt\",\"date_block_num\",\"shop_id\",\"item_id\",\"item_price\",\"item_cnt_day\"],[\"date\",\"date_block_num\",\"null\",\"null\",\"null\",\"null\"],[\"02.01.2013\",\"0\",\"59\",\"22154\",\"999.0\",\"1.0\"],[\"03.01.2013\",\"0\",\"25\",\"2552\",\"899.0\",\"1.0\"],[\"05.01.2013\",\"0\",\"25\",\"2552\",\"899.0\",\"-1.0\"],[\"06.01.2013\",\"0\",\"25\",\"2554\",\"1709.05\",\"1.0\"]]}"
+      },
+      "dateCreated": "Aug 31, 2021 8:33:24 AM",
+      "dateSubmitted": "Aug 31, 2021 8:36:04 AM",
+      "dateStarted": "Aug 31, 2021 8:36:04 AM",
+      "dateFinished": "Aug 31, 2021 8:36:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
       "version": "v0",
-      "jobName": "paragraph_1630393767550_-1953523886",
-      "id": "20210831-070927_260114303_q_HTNY2XUWMH1630393617",
-      "dateCreated": "Aug 31, 2021 7:09:27 AM",
+      "jobName": "paragraph_1630398964222_2058864742",
+      "id": "20210831-083604_944606861_q_HTNY2XUWMH1630393617",
+      "dateCreated": "Aug 31, 2021 8:36:04 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 1000
     }
